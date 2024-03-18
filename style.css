@@ -502,6 +502,53 @@ nav h6{
     }
     
 }
+@media (max-width:500px){
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .navbar{
+        display: none;
+    }
+    .mob-view{
+        display: grid;
+    }
+    .photo{
+        margin-top: 10%;
+    }
+    .contain{ 
+        position: static;
+    }
+    .outer{
+        position: static;
+        width: 100%;
+    }
+    .text-box,.text-box p,.text-box i{
+        position: static;
+    }
+    .text-box p{
+        text-align: right;
+    }
+    .text-box i{
+        margin-left: 95%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    
+    }
+    .left-outer .text-box h2,.left-outer h4{
+        text-align: center;
+        margin-right: 0;
+    }
+    .right-outer .text-box h2,.right-outer h4{
+        margin-left: 0;
+        text-align: center;
+    }
+    .contain::after{
+        display: none;
+    }
+    
+
+}
     
     
 
