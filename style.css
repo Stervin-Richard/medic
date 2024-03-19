@@ -303,13 +303,12 @@ nav h6{
     margin-top: 20vh;
 }
 .booking h1{
-    height: 100px;
     font-size: 30px;
     text-align: center;
 }
 .information {
     display: grid;
-    margin-top: 2%;
+    margin-top: 5%;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-left: 25%;
@@ -545,6 +544,11 @@ nav h6{
     }
     .contain::after{
         display: none;
+    }
+    .information{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 2%;
     }
     
 
